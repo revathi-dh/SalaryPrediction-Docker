@@ -4,7 +4,7 @@ from joblib import load
 model = load("SalaryModel.pkl")
 
 # Infinite Loop for the Prediction prompt
-print("************ Salary Prediction App On Docker ************\n")
+print("$$$$$$$$$$ Salary - Prediction on Docker $$$$$$$$$$\n")
 while True:
 	# Taking the User Input
 	experience = float(input("Enter your Years of Experience : "))
